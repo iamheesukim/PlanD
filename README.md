@@ -22,6 +22,9 @@ http://www.enewstoday.co.kr/news/articleView.html?idxno=1347459<br/>
 
 <br/>
 
+사용된 오라클 DB는 더이상 사용이 불가합니다.<br/>
+사용된 API는 유효기간 만료 또는 삭제된 API키로 더이상 사용이 불가능할 가능성이 높습니다.
+
 ### back-end
 
 - Java 14.0.2.
