@@ -1,22 +1,26 @@
-## Plan.D
+# PlanD ver.2
 
-비트캠프 파이널 프로젝트
+## 비트캠프 206기 5조 파이널 프로젝트
 
-## 0. 협업 공지사항(by 김승규)
+- 5명의 팀원으로 구성.<br/>
+- ver.1은 팀원 전체가 함께 제작한 웹페이지로, 저는 백엔드를 주로 담당하였습니다.
+- ver.2은 같이 제작한 코드를 제가 처음부터 다시 제작해보았습니다.
 
-- 작업 효율의 향상을 위해 Front/Back을 분리하였습니다.
-- 현재 학원에서 수강 중인 MVC 모델을 활용한 웹 페이지 구현은 back-end 폴더에서 배운 대로 적용해 주시면 됩니다. front-end 폴더의 내용은 대부분 저만 사용할 것 같습니다. 필요한 내용이 생기면 back-end 폴더에도 셋업해 두겠습니다. 문제가 생기면 말씀해 주세요.
-- 아래 3, 4번 항목에 현재까지 적용시킨 스택 및 라이브러리를 작성해 두었습니다. 서버 제작에 참고해 주세요.
-- 헤더는 높이 60px로 설정하여 스크롤을 내려도 항상 화면의 최상단 60px를 차지하도록 fixed 속성을 추가해 두었습니다. 따라서 body를 만드실 때에는 margin-top을 최소 60px 이상 적용하여 헤더에 가려지지 않도록 해 주세요.
+듀오 설문 조사 中
+http://www.enewstoday.co.kr/news/articleView.html?idxno=1347459<br/>
+데이트코스에 관련된 불만이 1위부터 4위를 차지할 만큼
+많은 사람들이 데이트 코스를 짜는데 있어 어려움을 겪고 있습니다.
 
-## 1. 프로젝트 목표
+이러한 불만을 해소하기 위해 데이트 코스를 추천해주는 웹 사이트 제작하고자 하였습니다.<br/>
+다양하고 새로운 코스를 통해 많은 사람들에게 행복한 데이트를 제공하는 플랫폼 PlanD를 만들었습니다.<br/>
 
-- 사용자로부터 날짜 및 시간, 장소(역), 관심사를 입력받아 데이트 코스를 추천해 주는 웹 어플리케이션 제작
-- MVC 모델을 활용한 웹 페이지 제작
+<br/>
 
-## 2. 구현 기능
+날씨, 관심사, 위치, 그리고 수많은 데이터들을 기반으로 사용자에게 최적의 데이트 코스를 제안해주는 것이 주기능이며,
+그밖에 식당, 카페 등 데이트 코스에 맞는 장소 추천뿐만 아니라, 예약 기능부터 선물 추천까지.<br/>
+다양한 기능들로 연애 초보든, 오래된 연인이든, 누구에게나 꼭 필욯고 편리한 서비스를 제공하고자 하였습니다.<br/>
 
-## 3. 스택
+<br/>
 
 ### back-end
 
@@ -25,33 +29,31 @@
 - Oracle 18.4.0.
 - Servlet
 - JSP
+- Apache Tomcat 9.0
+- MyBatis
 
 ### front-end
-
 - HTML5
 - CSS
 - JavaScript ES6
 - React.js
+- Ajax
 
-## 4. 라이브러리
+### Toolkit
+- sqldeveloper
+- eXERD
+- Spring Tool Suit
+- Visual Studio Code
 
-### back-end
+### Cooperation
+- git
+- GitHub
 
-- ojdbc 8
-- spring-jdbc 5.2.10.
-- gson 2.8.8.
-- json-simple 1.1.1.
-- JSTL
-
-### front-end
-
-- JQuery
-- styled-components
-- react-router
-- react-router-dom
-- axios
-- sfcookies
-- react-calendar
-- KakaoMap(services)
-- ckeditor
-- react-google-map
+### API
+- Kakao Map
+- coolSMS
+- Google Maps
+- Tmap
+- Open Weather
+- I'm port
+- SpeechRecognition
